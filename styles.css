@@ -1,0 +1,234 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+	align-items: center;
+	font-family: "Rubik"
+}
+
+.header {
+	display: flex;
+	height: 135 px;
+	padding: 50px 150px;
+	justify-content: space-between;
+}
+
+.logo {
+	display: flex;
+}
+
+.logo-text {
+	font-style: normal;
+	font-size: 20px;
+	line-height: 24px;
+	color: #131313;
+	display: flex;
+}
+
+.logo-main {
+	font-weight: 500;
+	display: flex;
+	width: 148px;
+	justify-content: space-between;
+}
+
+.text-weight {
+	font-weight: 700;
+}
+
+.menu {
+	display: flex;
+	width: 451px;
+	justify-content: space-between;
+	color: #4F5665;
+}
+
+.directory {
+	font-weight: 500;
+	display: flex;
+	width: 233px;
+	justify-content: space-between;
+}
+
+.sign-up {
+	border: 1px solid red;
+	border-radius: 50px;
+	color: red;
+	padding: 13px 45px;
+}
+
+.main {
+	margin-top: 45px;
+	margin-left: 150px;
+	margin-right: 83px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.home {
+	width: 555px;
+}
+
+.slogan {
+	font-size: 50px;
+}
+
+.begin-slogan {
+	font-weight: 500;
+}
+
+.end-slogan {
+	font-weight: 700;
+}
+
+.direction {
+	color: #4F5665;
+}
+
+.text-weight2 {
+	font-weight: 500;
+}
+
+.button {
+	padding: 18px 78px;
+	font-weight: 700;
+	border-radius: 10px;
+	border: none;
+	background-color: #F53838;
+	color: white;
+	margin-top: 50px;
+	box-shadow: 0 30px 40px 0 rgb(245, 56, 56, 0.35);
+}
+
+.context-menu {
+	position: relative;
+	display: flex;
+	height: 200px;
+	padding: 68px 91px;
+	justify-content: space-between;
+	margin-left: 150px;
+	margin-right: 150px;
+	top: 105px;
+	border-radius: 10px;
+	box-shadow: 10px 150px 500px 0 rgba(75, 92, 114, 0.35);
+
+}
+
+.person {
+	width: 145px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.geolocation {
+	width: 183px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.servers {
+	display: flex;
+	justify-content: space-between;
+	width: 163px;
+}
+
+.users {
+	font-size: 20px;
+}
+
+.specific-number {
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.appeal {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 185px;
+	padding-left: 150px;
+	position: relative;
+	top: 200px;
+}
+
+.ad {
+	width: 36%;
+	position: relative;
+	top: 39px;
+}
+
+.we-provide {
+	font-size: 35px;
+	font-weight: 500;
+}
+
+.you-can {
+	font-size: 16px;
+	font-weight: 400;
+	color: #4F5665;
+	padding-bottom: 15px;
+	padding-top: 20px;
+}
+
+.paragraph {
+	font-size: 14px;
+	font-weight: 400;
+	color: #4F5665;
+	position: relative;
+	left: 10px;
+}
+
+.check {
+	display: flex;
+	padding-top: 20px;
+}
+
+.plan {
+	height: 270px;
+	padding: 80px 440px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	position: relative;
+	top: 310px;
+}
+
+.choice {
+	font-size: 35px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.pack {
+	font-size: 16px;
+	font-weight: 400;
+	color: #4F5665;
+	width: 555px;
+	line-height: 30px;
+}
+
+.type-pack {
+	height: 860px;
+	padding: 60px 175px;
+	display: flex;
+	justify-content: space-between;
+}
+.type-1{
+	width: 300px;
+}
+.free-plan {
+	height: 225px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.name-pack {
+	font-size: 18px;
+	font-weight: 500;
+}
